@@ -13,7 +13,7 @@ exports.getbalance = async (req, res) => {
                 balance = balance - Number(transaction.value);
         });
         const price = await EthereumUpdaterCron();
-        res.status(200).send({ balance, Etherprice });
+        res.status(200).send({ balance, Etherprice:price });
     } catch (err) {
 
         console.log(err);
