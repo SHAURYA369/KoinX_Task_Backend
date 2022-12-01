@@ -4,7 +4,7 @@ deployed on https://koinx-task.onrender.com/
 
 Post request endPoints-
 
-'/getUserTransactions'
+'/getUserTransactions',
 '/getUserBalance'
 
 Params to be passed-
