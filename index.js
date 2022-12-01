@@ -16,7 +16,7 @@ app.use([
      routes,
 ]);
 
-const db=mongoose.connect("mongodb://localhost:27017/Koinx", {useNewUrlParser: true, useUnifiedTopology: true});
+const db=mongoose.connect("mongodb+srv://KoinX:MkqBLXmSLiLtmjCL@cluster0.two6zna.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
 job.start();
 const port = 8000;
 
